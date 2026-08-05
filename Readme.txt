@@ -42,7 +42,7 @@ POST      /auth/token/login/           (login, returns auth token)
 POST      /auth/token/logout/          (logout)
 POST      /restaurant/api-token-auth/  (obtain DRF auth token)
 
-Insomnia testing tips
+Insomnia testing
 ---------------------
 1. Register: POST /auth/users/ with username, password, re_password
 2. Login: POST /auth/token/login/ or POST /restaurant/api-token-auth/
